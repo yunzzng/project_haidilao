@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* 1650 이상 */
+
+@media screen and (min-width:1650px)  {
+    .container {
+        width: 1596px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+    }    
+
+    /* text */
+    .title h2, h3, .container h2{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .title p {
+        font-size: 24px;
+    }
+    .title .line {
+        width: 300px;
+    }
+    .back_text{
+        font-size: 22px;
+    }
+    .link a{
+        font-size: 22px;
+    }
+    
+    /* Header */
+    header .logo h1 a{
+        width: 270px;
+        height: 90px;
+    }
+    .gnb > li > a{
+        font-size: 24px;
+    }
+
+    /* Visual */
+    .visual{
+        height: 1000px;
+    }
+    .back_text p{
+        padding: 0 200px;
+    }
+
+    /* Brand */
+    .brand {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .brand .container {
+        flex: 0 1 30%;
+        margin-right: 5%;
+    }
+    .brand .title{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .brand .line{
+        position: absolute;
+    }
+    .brand .swiper.slider_brand {
+        flex: 0 1 60%;
+    }
+    .brand .swiper-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .brand .swiper-slide {
+        width: 60%; 
+    }
+    .slider_brand .swiper-slide>div {
+        height: 600px;
+    }
+    .slide_active_img1, .slide_active_img2, .slide_active_img3 {
+        height: 600px;
+    }
+    .brand .swiper-pagination-bullet{
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Food */
+    .food {
+        height: 1000px;
+    }
+    .slider_food .swiper-slide>div{
+        height: 600px;
+    }
+    .food_text-bottom{
+        margin-top: 90px;
+    }
+    .food_text-top h4, .food_text-bottom h4 {
+        font-size: 22px;
+    }
+    .food_text-top span, .food_text-bottom span {
+        font-size: 34px;
+    }
+    .food .swiper-button-prev, .food .swiper-button-next{
+        width: 50px;
+        height: 50px;
+        top: 90%;
+    }
+    .food .swiper-button-prev {
+        left: 400px;
+    }
+    .food .swiper-button-next {
+        right: 400px;
+    }
+
+    /* banner */
+    .banner{
+        height: 500px;
+    }
+
+    /* how */
+    .howuse .how_image {
+        height: 700px;
+    }
+    .howuse .title{
+        margin-top: 100px;
+    }
+
+    /* Notice */
+    .notice_image{
+        height: 600px;
+    }
+
+    /* service */
+    .service_image{
+        height: 700px;
+    }
+
+    /* Footer */
+    .footer {
+        width: 1596px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .footer-logo {
+        height: 200px;
+        flex: 1;
+        text-align: left;
+    }
+    .footer-text, .footer-text a {
+        font-size: 20px;
+        flex: 3;
+        text-align: left;
+    }
+    .footer-text{
+        margin: 30px 20px 10px 15%;
+    }
+}

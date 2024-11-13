@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* 768 이상 */
+
+@media screen and (min-width:768px)  {
+    .container {
+        width: 88.54%;
+    }
+
+    /* text */
+    .title h2, h3, .container h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .title p {
+        font-size: 18px;
+    }
+    .title .line {
+        width: 200px;
+    }
+    .back_text{
+        font-size: 18px;
+    }
+    .link a{
+        font-size: 18px;
+    }
+
+    /* Header */
+    header .logo h1 a{
+        width: 210px;
+        height: 70px;
+    }
+
+    /* Menu */
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        top: 20px;
+    }
+    .menu-toggle .menu-icon{
+        height: 4px;
+    }
+
+    /* Visual */
+    .visual{
+        height: 800px;
+    }
+
+    /* Brand */
+    .brand{
+        padding: 0;
+    }
+    .slider_brand{
+        width:90%;
+        margin-right: 0;
+    }
+    .slider_brand .swiper-slide{
+        padding: 0;
+    }
+    .swiper-backface-hidden .swiper-slide{
+        margin-right: 0;
+    }
+    .slider_brand .swiper-slide>div {
+        transition: transform 0.5s ease;
+        height: 500px;
+    }
+    .slider_brand .swiper-slide{
+        width: 60%;
+    }
+    .slide_img1, .slide_img2, .slide_img3 {
+        height: 500px;
+    }
+    .brand .swiper-pagination-bullet{
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Food */
+    .food {
+        height: 800px;
+    }
+    .slider_food .swiper-slide>div{
+        height: 500px;
+    }
+    .food_text-top h4, .food_text-bottom h4 {
+        font-size: 18px;
+    }
+    .food_text-bottom{
+        margin-top: 80px;
+    }
+    .food_text-top span, .food_text-bottom span {
+        font-size: 30px;
+    }
+    .food .swiper-button-prev, .food .swiper-button-next{
+        width: 45px;
+        height: 45px;
+        top: 92%;
+    }
+    .food .swiper-button-prev {
+        left: 60px;
+    }
+    .food .swiper-button-next {
+        right: 60px;
+    }
+
+    /* How */
+    .howuse .how_image{
+        height: 500px;
+    }
+
+    /* Notice */
+    .notice_image{
+        height: 500px;
+    }
+
+    /* Service */
+    .service_image {
+        height: 500px;
+    }
+    .servic-right {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        height: 400px;
+    }
+    .footer-logo {
+        height: 90px;
+    }
+    .footer-text {
+        font-size: 16px;
+        margin: 40px 0;
+    }
+    .footer-text span {
+        display: inline;
+    }
+    .footer-span{
+        margin: 30px 0;
+    }
+    .footer-copy{
+        margin: 35px 0;
+    }
+}
